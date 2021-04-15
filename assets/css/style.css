@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* colori */
+/* background color main
+background-color:#141922
+background color header
+background-color: #080B12
+colori testo
+color: #73767A
+colore bordo 
+color: #ADFF2F
+colore footer 
+color #282828  */
+ 
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/* header */
+
+
+.navbar {
+    background-color: #080B12;
+    height: 60px;
+
+
+}
+
+.menu_nav {
+    position: absolute;
+
+}
+
+
+
+#sidebar {
+    background-color: black;
+    height:100vh;
+ 
+}
+
+.logo, .home, .search, .libreria {
+    margin-top:20px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo_sm {
+    width: 30%;
+}
+
+.home:hover{
+    border-left: 2px solid #ADFF2F;
+}
+
+.home img {
+    width: 20%;
+}
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+.search:hover{
+    border-left: 2px solid #ADFF2F;
+}
+
+.search img{
+    width:20%;
+    filter: brightness(0.5);
+}
+
+.search a {
+    text-decoration: none;
+    color: #73767A;
+    font-size: 12px;
+}
+
+.libreria:hover{
+    border-left: 2px solid #ADFF2F;
+}
+
+.libreria img{
+    width:20%;
+    filter: brightness(0.5);
+}
+
+.libreria a {
+    text-decoration: none;
+    color: #73767A;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home a, .search a, .libreria a {
+        display: none;
+    }
+}
+
