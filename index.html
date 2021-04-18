@@ -7,39 +7,225 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Spotify Web</title>
 </head>
 <body>
-        <div class="container-fluid">
-            <div class="navbar">
-                <div class="menu-nav">
 
+    <div class="wrapper">
+        <main>
+            <div class="sidebar clearfix d-flex flex-column justify-content-between">
+                <div class="logo d-none d-sm-none d-md-block d-lg-block">
+                    <a href="#"><img src="./assets/img/logo.svg" alt="logo spotify"></a>
+                </div>
+                <div class="logo_sm d-block d-sm-block d-md-none d-lg-none">
+                    <img src="./assets/img/logo-small.svg" alt="logo spotify solo icona">
+                </div>
+                <div class="home">
+                    <img src="./assets/img/home.svg" alt="icona casa">
+                    <a href="#">Home</a>
+                </div>
+                <div class="search">
+                    <img src="./assets/img/search.svg" alt="icona search">
+                    <a href="#">Cerca</a>
+                </div>
+                <div class="libreria">
+                    <img src="./assets/img/libreria.svg" alt="icona libreria">
+                    <a href="#">La Tua Libreria</a>
+                </div>
+                <div class="playlist">
+                        <h4>PLAYLIST</h4>
+                        <div class="crea d-flex align-items-center">
+                            <i class="fas fa-plus-square"></i>
+                            <a href="">Crea Playlist</a>
+
+                        </div>
+                        <div class="nuovo">
+                            <ul>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                                <li>Nome Playlist</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="utente">
+                    <div class="d-flex align-items-center install">
+                        <img src="./assets/img/download.svg" alt="download">
+                        <p>Installa App</p>
+                    </div>
+                    <div class="nome-utente d-flex">
+                        <img src="./assets/img/profile.svg" alt="profilo utente">
+                        <p>John Doe</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div id="sidebar" class="col-xs-1 col-sm-1 col-md-3 col-lg-2">
-                    <div class="logo d-none d-sm-none d-md-block d-lg-block">
-                        <a href="#"><img src="./assets/img/logo.svg" alt="logo spotify"></a>
+            <div class="content clearfix">
+                <div class="navbar d-flex justify-content-end">
+                    <a href="#">EFFETTUA L'UPGRADE</a>
+
+                </div>
+                <div class="box">
+                    <div class="menu">
+                        <ul class="d-flex justify-content-center">
+                            <li>
+                                <a href="#">IN EVIDENZA</a>
+                            </li>
+                            <li>
+                                <a href="#">PODCAST</a>
+                            </li>
+                            <li>
+                                <a href="#">CLASSIFICHE</a>
+                            </li>
+                            <li>
+                                <a href="#">GENERI E MOOD</a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">NUOVE USCITE</a>
+                            </li>
+                            <li>
+                                <a href="#">SCOPRI</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="logo_sm d-block d-sm-block d-md-none d-lg-none">
-                        <img src="./assets/img/logo-small.svg" alt="logo spotify solo icona">
+                    <div class="recent">
+                        <h2>Recently played</h2>
+                        <div class="music-icon">
+                            <div class="row">
+                                <div class="text-center col-xs-6 col-sm-6 col-md-3 col-lg-2">
+                                    <img src="./assets/img/metal_lifting.jpg" alt="">
+                                    <h4>Heavy Metal</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                                <div class="text-center  col-xs-6 col-sm-6  col-md-3 col-lg-2">
+                                    <img src="./assets/img/stranger.jpeg" alt="stranger thing">
+                                    <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack </h4>
+                                    <p>Kyle Dixon e Michael Stein</p>
+                                </div>
+                                <div class="text-center  col-xs-6 col-sm-6 col-md-3 col-lg-2">
+                                    <img src="./assets/img/aquietplace.jpeg" alt="a quiet place">
+                                    <h4>A quiet place</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                                <div class="text-center col-xs-6 col-sm-6 col-md-3 col-lg-2">
+                                    <img src="./assets/img/split.jpeg" alt="split music">
+                                    <h4>Split</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                                <div class="text-center  col-xs-6 col-sm-6 col-md-3 col-lg-2">
+                                    <img src="./assets/img/cure.jpeg" alt="cure">
+                                    <h4>A cure for wellness</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                                <div class="text-center  col-xs-6 col-sm-6 col-md-3 col-lg-2">
+                                    <img src="./assets/img/sinister.jpeg" alt="sinister">
+                                    <h4>Sinister</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="home">
-                        <img src="./assets/img/home.svg" alt="icona casa">
-                        <a href="#">Home</a>
+                    <div class="create">
+                        <h1>Creato per John Doe</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                        <div class="row">
+                            <div class="col-xs-3 col-md-3 col-lg-2">
+                                <img src="./assets/img/radar.jpeg" alt="">
+                                <h4>Release radar</h4>
+                            </div>
+                            <div class="col-xs-3 col-md-3 col-lg-2">
+                                <img src="./assets/img/mixdaily.jpeg" alt="">
+                                <h4>Daily mix 1</h4>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="search">
-                        <img src="./assets/img/search.svg" alt="icona search">
-                        <a href="#">Cerca</a>
+                    <div class="popolar">
+                        <h1>Artisti più popolari</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                        <div class="artist">
+                            <div class="row">
+                                <div class="col-xs-3 col-md-3  col-lg-2">
+                                    <img src="./assets/img/youg.jpeg" alt="">
+                                    <h4>Lana Del Rey</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                                <div class="col-xs-3 col-md-3  col-lg-2">
+                                    <img src="./assets/img/einaudi.jpeg" alt="">
+                                    <h4>Ludovico Einaudi</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="libreria">
-                        <img src="./assets/img/libreria.svg" alt="icona libreria">
-                        <a href="#">La Tua Libreria</a>
-                    </div>
+
                 </div>
 
             </div>
-        </div>
-    
+        </main>
+        <footer>
+            <div class="player d-flex align-items-center">
+                <div class="d-flex align-items-center col-left clearfix">
+                    <img src="./assets/img/sinister.jpeg" alt="">
+                    <div class="text">
+                        <p>Sinister</p>
+                        <p id="gray">Brano Nome</p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-folder"></i>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                    <div class="col-center clearfix">
+                        <div class="d-flex align-items-center justify-content-center play">
+                            <i class="fas fa-random"></i>
+                            <i class="fas fa-step-backward"></i>
+                            <i id="circle" class="far fa-play-circle"></i>
+                            <i class="fas fa-step-forward"></i>
+                            <i class="fas fa-redo-alt"></i>
+                        </div>
+                        <div class="d-flex  align-items-center justify-content-center playbar">
+                            <p>0:25</p>
+                            <div class="barra">
+                                <div class="green"></div>
+                            </div>
+                            <p>4:35</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end align-items-center col-right clearfix">
+                        <div class="icons">
+                            <i class="fas fa-list"></i>
+                            <i class="fas fa-desktop"></i>
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <div class="barra_volume">
+                            <div class="green"></div>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+    </div>
+
+
+ 
 </body>
 </html>
