@@ -1,7 +1,7 @@
 
 
 // writeline
-document.writeln("Hello World");
+document.writeln("Hello Spotify");
 
 // alert
 alert("spotify 35#");
